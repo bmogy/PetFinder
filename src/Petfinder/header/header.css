@@ -1,0 +1,45 @@
+.headerContainer a{
+display: block;
+font-weight:bold ;
+color: white; 
+text-decoration: none;
+}
+.headerContainer ul{
+    display: flex;
+    justify-content: space-around;
+}
+.headerContainer{
+    background-color: purple;
+}
+.headerContainer li{
+    list-style-type: none;
+    padding: 15px;
+}
+.imageBanner{
+    position: relative;
+}
+.imageBanner img{
+    width: 100%;
+    height: 250px;
+}
+.imageBannerInfo{
+    color:black;
+    padding-left: 30px;
+    text-align: left;
+    position: absolute;
+    bottom: 50px;
+
+}
+.imageBannerInfo button{
+    font-size: 1.5rem;
+    background-color: purple;
+    padding: 5px;
+    border-radius: 15px 15px
+
+}
+.imageBannerInfo h1{
+    font-weight:300;
+}
+.imageBannerInfo h1, .imageBannerInfo p, .imageBannerInfo button{
+    margin: 10px;
+}
